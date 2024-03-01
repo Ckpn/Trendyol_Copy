@@ -27,6 +27,44 @@
     width: 50%;
     display: flex;
 }
+.nav-hid1{
+    width: 80%;
+    /* display: none; */
+    background-color: aqua;
+}
+.nav-hid2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hid-navcon{
+    width: 80%;
+    height: auto;
+}
+.hid-nav1{
+    width:  80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hid-nav2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.hid-nav3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.hbox1{
+    display: none;
+}
+
+
+
 
 .nav-con3 {
     display: flex;
@@ -357,6 +395,17 @@
     color: darkorange;
 }
 
+
+
+
+/* navbar bitiş */
+
+
+main{
+    padding: 100px 200px;
+}
+
+
 .main-con9 .col {
     padding: 0px;
 }
@@ -367,12 +416,6 @@
 
 
 
-
-
-
-
-
-
 .main-con1 {
     height: 100px;
     width: 100%;
@@ -380,6 +423,10 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.glide__slide{
+    text-align: center;
 }
 
 
@@ -484,9 +531,6 @@
 /* ÜRÜN sayfası */
 
 
-main {
-    padding: 20px 200px 100px 200px;
-}
 
 .main-urun1 a {
     text-decoration: none;
@@ -574,6 +618,55 @@ main {
 
 
 /* LOGİN BİTİŞ */
+.login-con{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.login-con h2{
+    border: 0px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    text-align: center;
+    margin-bottom: 10px;
+    color: coral;
+}
+.login-con h2:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-con label{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.login-con label:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.login-con input{
+    border-radius: 5px;
+    padding: 3px;
+    width: 70%;
+}
+.log-con1{
+    width: 30%;
+}
+.log-con2{
+    width: 30%;
+}
+
+.log-con1 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+.log-con2 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
 
 
 
@@ -650,4 +743,20 @@ main {
 .foot-box2 h4 {
     color: #eee;
     font-size: 16px;
+}
+
+
+/* FOOTER BİTİŞ */
+
+
+@media screen and (max-width:1150px) {
+    main {
+        padding: 100px 100px;
+        
+    }
+}
+@media screen and (max-width:780px) {
+    main {
+        padding: 100px 0px;
+    }
 }
